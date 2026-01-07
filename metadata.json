@@ -1,0 +1,5 @@
+{
+  "name": "Gemini Conductor Kanban",
+  "description": "A high-fidelity Kanban visualization for the Gemini Conductor, featuring real-time task tracking, AI-powered planning, and live execution monitoring.",
+  "requestFramePermissions": []
+}
