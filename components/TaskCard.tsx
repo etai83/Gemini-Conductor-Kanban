@@ -69,7 +69,7 @@ const TaskCard: React.FC<TaskCardProps> = ({ task, isActive }) => {
       {isActive && lastLog && (
         <div className="mt-2 p-2 bg-gray-950 rounded border border-gray-800 font-mono text-[10px] text-green-400 truncate flex items-center gap-2">
           <Terminal size={10} className="text-gray-500" />
-          <span className="animate-pulse">> {lastLog.message}</span>
+          <span className="animate-pulse">&gt; {lastLog.message}</span>
         </div>
       )}
 
